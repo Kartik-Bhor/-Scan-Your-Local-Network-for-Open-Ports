@@ -1,5 +1,6 @@
 Task 1: Scan-Your-Local-Network-for-Open-Ports
-Scanned local network to find open ports and services on the ports and packet capture with wire shark. 
+
+--->Scanned local network to find open ports and services running on the ports and their potential threats and captured packets on the network with wire shark to analyse them. 
 
 Nmap scan : Scanned network with Nmap and found 3 IP address operating.
 
