@@ -27,6 +27,7 @@ Results : Open Ports   services
 All ports are open and using TCP protocol.
 
 services : Domain-> domain name system (DNS) Requests.
+
 		Threat==>DNS spoofing, DNS tunnelling etc.
 
   http and https -> request and response protocols.
