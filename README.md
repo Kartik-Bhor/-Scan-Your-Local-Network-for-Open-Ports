@@ -28,20 +28,25 @@ All ports are open and using TCP protocol.
 
 services : Domain-> domain name system (DNS) Requests.
 
-		Threat==>DNS spoofing, DNS tunnelling etc.
+Threat==>DNS spoofing, DNS tunnelling etc.
 
   http and https -> request and response protocols.
-		Threat==> http-> MITM attack, injection attacks.
-			  https-> certificate forgery, phishing sites.
+		
+  Threat==> http-> MITM attack, injection attacks.
+			
+https-> certificate forgery, phishing sites.
 
 oracleas-https-> https service used by oracle application server.
-		Threat==> Weak ssl, unprotected admin panels.
+		
+  Threat==> Weak ssl, unprotected admin panels.
 
 http-proxy-> proxy port used when port 80 is busy
-		Threat==> open proxy exploits, injection Attacks.
+		
+  Threat==> open proxy exploits, injection Attacks.
 
 https-alt-> used when port 443 is busy as an alternative.
-		Threats==> Brute force on login panels, insecure TLS configurations.
+		
+  Threats==> Brute force on login panels, insecure TLS configurations.
 
 
 Wireshark Scan : 
