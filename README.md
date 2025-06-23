@@ -26,36 +26,41 @@ Results : Open Ports   services
 
 All ports are open and using TCP protocol.
 
-services : Domain-> domain name system (DNS) Requests.
+services :
 
-Threat==>DNS spoofing, DNS tunnelling etc.
+*Domain-> domain name system (DNS) Requests.
 
-  http and https -> request and response protocols.
+  Threat==>DNS spoofing, DNS tunnelling etc.
+
+
+*http and https -> request and response protocols.
 		
   Threat==> http-> MITM attack, injection attacks.
-			
-https-> certificate forgery, phishing sites.
+	    https-> certificate forgery, phishing sites.
 
-oracleas-https-> https service used by oracle application server.
+
+*oracleas-https-> https service used by oracle application server.
 		
   Threat==> Weak ssl, unprotected admin panels.
+  
 
-http-proxy-> proxy port used when port 80 is busy
+*http-proxy-> proxy port used when port 80 is busy
 		
   Threat==> open proxy exploits, injection Attacks.
+  
 
-https-alt-> used when port 443 is busy as an alternative.
+*https-alt-> used when port 443 is busy as an alternative.
 		
   Threats==> Brute force on login panels, insecure TLS configurations.
 
 
 Wireshark Scan : 
 
-+Captured diffrent packets fro the network.
-+applied filters for specific ip packet capture.
-+protocols:ARP
+*Captured diffrent packets fro the network.
+*applied filters for specific ip packet capture.
+*protocols:ARP
 	  UDP
 	  ICMP
 	  DHCP .etc.
-+Noticed conversation between multiple devices in my network.
+*Noticed conversation between multiple devices in my network.
 
