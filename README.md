@@ -3,6 +3,7 @@ Task 1: Scan-Your-Local-Network-for-Open-Ports
 --->Scanned local network to find open ports and services running on the ports and their potential threats and captured packets on the network with wire shark to analyse them. 
 
 **Refer to screenshots for proof of original results.**
+
 Nmap scan : Scanned network with Nmap and found 3 IP address operating.
 
 198.168.31.1 --> WIFI IP address
